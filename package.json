@@ -1,0 +1,17 @@
+{
+  "name": "bot-whatsapp-bravo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Assistente virtual de WhatsApp para os cursos preparatórios da BRAVO.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.18",
+    "express": "^4.21.2"
+  }
+}
